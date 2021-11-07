@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Rick&amp;Morty</string>
+    <string name="character">Character</string>
+    <string name="location">Location</string>
+    <string name="episode">Episode</string>
+    <string name="retry">Повторить</string>
+    <string name="error_message">Something went wrong</string>
+    <string name="name">Имя:</string>
+    <string name="status">Статус:</string>
+    <string name="species">Вид:</string>
+    <string name="gender">Гендер:</string>
+    <string name="origin"><u>Происхождение</u></string>
+    <string name="location_text"><u>Местонахождения</u></string>
+    <string name="type">Тип</string>
+    <string name="dimension">Измерение:</string>
+    <string name="air_date">Дата выхода в эфир:</string>
+    <string name="episode_code">Код эпизода:</string>
+    <string name="ERROR">Произошла ошибка при загрузке данных,
+                            Проверьте подключение к сети</string>
+    <string name="search">Поиск</string>
+    <string name="data_not_found">К сожалению, данные не были найдены. Попробуйте изменить параметры запроса или проверьте подключение к сети!!!</string>
+
+    <string-array name="statusArray">
+        <item> </item>
+        <item>Alive</item>
+        <item>Dead</item>
+        <item>Unknown</item>
+    </string-array>
+
+    <string-array name="genderArray">
+        <item> </item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Genderless</item>
+        <item>Unknown</item>
+    </string-array>
+</resources>

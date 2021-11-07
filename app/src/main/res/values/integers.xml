@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="character_span_count">2</integer>
+    <integer name="episode_span_count">2</integer>
+    <integer name="location_span_count">2</integer>
+</resources>
