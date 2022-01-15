@@ -26,5 +26,5 @@ interface CharacterService {
         @Query("type") type: String?,
         @Query("gender") gender: String?,
         @Query("page") page: Int
-    ) : ResponseCharacter
+    ): ResponseCharacter
 }
