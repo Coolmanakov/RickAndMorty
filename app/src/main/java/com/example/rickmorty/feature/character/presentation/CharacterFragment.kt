@@ -41,14 +41,14 @@ class CharacterFragment : Fragment() {
         ArrayAdapter(
             requireContext(),
             android.R.layout.simple_spinner_item,
-            resources.getStringArray(R.array.statusArray),
+            resources.getStringArray(R.array.statusArray)
         )
     }
     private val genderSpinnerAdapter: ArrayAdapter<String> by lazy {
         ArrayAdapter(
             requireContext(),
             android.R.layout.simple_spinner_item,
-            resources.getStringArray(R.array.genderArray),
+            resources.getStringArray(R.array.genderArray)
         )
     }
 

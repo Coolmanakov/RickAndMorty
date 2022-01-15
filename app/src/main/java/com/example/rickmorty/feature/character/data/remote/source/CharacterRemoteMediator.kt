@@ -25,7 +25,6 @@ class CharacterRemoteMediator @Inject constructor(
     private val userAction: UserAction<out Any>
 ) : RemoteMediator<Int, CharacterDto>() {
 
-
     override suspend fun initialize(): InitializeAction {
         return InitializeAction.LAUNCH_INITIAL_REFRESH
     }
